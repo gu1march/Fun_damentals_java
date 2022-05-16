@@ -30,7 +30,7 @@ public class main_execution {
 		}
 		
 		
-		
+		//LOOPS DE REPETIÇÃO//
 		int num = 9;
 	switch (num) {
 		case 1:
@@ -89,12 +89,12 @@ public class main_execution {
 	}
 		
 		int x = 0;
-		
+		//LOOP DE REPETIÇÃO//
 		while (x < 10) {
 			System.out.println(x);
 			x += 1;
 		}
-		
+		//LOOP DE REPETIÇÃO//
 		int x = 11;//No (do while) ele sempre executa oq estiver no bloco (do), depois se for verdade a condição, ele executa novamente. 
 		do {
 			System.out.println(x);
@@ -105,7 +105,7 @@ public class main_execution {
 			System.out.println(x);
 		}
 		
-		
+		//LOOP DE REPETIÇÃO//
 		for (int x = 1; x < 11; x += 1) {
 			System.out.println(x + " X " + x + " = " + x * 2);
 		}
@@ -119,6 +119,7 @@ public class main_execution {
 			System.out.println(x + " X " + y + " = " + x * y);
 		}
 		
+		//INTRODUÇÃO A ARRAYS//
 		int x1 = 3 ;
 		int y1 = 5 ;
 		int z1 = 7 ;
@@ -128,8 +129,11 @@ public class main_execution {
 		System.out.println(z1);
 		System.out.println();
 		
+		//ARRAY//
+		//CRIAÇÃO DE ARRAYS COM NÚMERO DE POSIÇÕES INDEFINIDAS (SENDO DETERMINADA PELA QUANTIDADE DE VALORES ATRIBUIDOS)//
 		double x[] = { 3, 5, 3, 5 };
 		
+		//X.LENGHT PEGA O NÚMERO DE VALORES DENTRO DA ARRAY OU MOSTRA QUANTOS VALORES ELA SUPORTA//
 		for (int aux = 0; aux < x.length; aux++) {
 		System.out.println("valor do indice" + aux + " = " + x[aux]);
 		}
@@ -142,10 +146,12 @@ public class main_execution {
 		}
 		}
 		
+		//CRIAÇÃO DE ARRAYS COM NÚMERO DE POSIÇÕES JÁ DEFINIDAS//
 		int[] arrayInt = new int[5];
 		String[] ArrayString = new String[4];
 		double [] ArrayDouble = new double[3];
 		
+		//ATRIBUIÇÃO DE VALOR PARA POSIÇÃO ESPECIFICA DA ARRAY//
 		arrayInt[3] = 4;
 		
 		int [] numero = new int[6];
