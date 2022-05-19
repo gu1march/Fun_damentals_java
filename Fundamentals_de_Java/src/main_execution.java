@@ -178,7 +178,7 @@ public class main_execution {
 		arrayObject [5] = arrayQualquer;
 
 		for (int aux2 = 0; aux2 < arrayObject.length;aux2++) {
-			System.out.println("Indice" +aux2+ " = " + arrayObject[aux2]);
+			System.out.println("Indice " +aux2+ " = " + arrayObject[aux2]);
 		}
 		
 		
