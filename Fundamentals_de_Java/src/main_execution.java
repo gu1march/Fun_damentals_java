@@ -164,5 +164,30 @@ public class main_execution {
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
 		System.out.println("Indice " + aux2 + " = " + numero[aux2]);
 		}
+		
+		
+		int[] arrayQualquer = new int[3];
+		Object[] arrayObject = new Object[6];
+		//Pegando da superclasse god Object é possível colocar qualquer coisa dentro da array de object, até outros objetos//
+		//Na falta de atribuição de valor ele atribui null para a posição sem valor//
+		
+		arrayObject [0] = 12;
+		arrayObject [1] = "Rafael";
+		arrayObject [2] = 13.8;
+		arrayObject [3] = true;
+		arrayObject [5] = arrayQualquer;
+
+		for (int aux2 = 0; aux2 < arrayObject.length;aux2++) {
+			System.out.println("Indice" +aux2+ " = " + arrayObject[aux2]);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
