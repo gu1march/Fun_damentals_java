@@ -181,7 +181,17 @@ public class main_execution {
 			System.out.println("Indice " +aux2+ " = " + arrayObject[aux2]);
 		}
 		
+		int [][] arrayBidirecional = new int[4][3];
 		
+		arrayBidirecional[0][0] = 8;
+		arrayBidirecional[2][1] = 7;
+		
+		for (int linha = 0; linha < arrayBidirecional.length;linha++) {
+			for (int coluna = 0; coluna < arrayBidirecional[0].length;coluna++) {
+				System.out.print("Indice [" +linha+ "][" + coluna + "] = " + arrayBidirecional[linha][coluna] + " " );
+			}
+			System.out.println();
+		}
 		
 		
 		
