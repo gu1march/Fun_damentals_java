@@ -181,6 +181,7 @@ public class main_execution {
 			System.out.println("Indice " +aux2+ " = " + arrayObject[aux2]);
 		}
 		
+		//O segundo [] serve para criar as colunas e o primeiro as linhas, sendo 4 linhas e 3 colunas//
 		int [][] arrayBidirecional = new int[4][3];
 		
 		arrayBidirecional[0][0] = 8;
